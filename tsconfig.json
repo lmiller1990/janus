@@ -5,7 +5,7 @@
     "strict": true,
     "target": "ES2015",
     "allowSyntheticDefaultImports": true,
-    "outDir": "dist",
+    "outDir": "",
     "declaration": true
   },
   "include": ["src/**/*"]
