@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "glob -c \"node --loader ts-node/esm/transpile-only --no-warnings --test\" \"./test/**/*.spec.ts\"",
+    "test:watch": "glob -c \"node --loader ts-node/esm/transpile-only --no-warnings --watch --test\" \"./test/**/*.spec.ts\""
+  },
+  "dependencies": {
+    "glob": "^10.3.3"
+  }
+}
