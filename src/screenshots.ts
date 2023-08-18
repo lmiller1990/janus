@@ -3,7 +3,7 @@ import path from "node:path";
 import fs from "node:fs/promises";
 import { debuglog } from "node:util";
 
-const debug = debuglog("screenshots");
+const debug = debuglog("janus:screenshots");
 
 export async function getNewlyCreatedScreenshots(
   projectPath: string,
